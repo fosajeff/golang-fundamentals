@@ -19,4 +19,12 @@ func main() {
 	nums = append(nums, 20, 30)
 
 	fmt.Println(nums)
+
+	namesOfFriends := []string{"Julian", "Precious"}
+
+	fmt.Println(namesOfFriends)
+
+	namesOfFriends = append(namesOfFriends, "Prisiclia")
+	fmt.Println(namesOfFriends)
+
 }

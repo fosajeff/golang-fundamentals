@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+
+	// there are untyped constants and typed constants
 	const appName = "Go Basics"
 
 	// typed constants

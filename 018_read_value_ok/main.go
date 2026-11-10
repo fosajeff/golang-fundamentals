@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("b", points["b"])
 	fmt.Println("c", points["c"])
 
-	// value-ok patter
+	// value-ok pattern
 	// value, isExist
 	valB, okB := points["b"]
 	fmt.Println(valB, okB)

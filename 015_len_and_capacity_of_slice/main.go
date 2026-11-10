@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// make([]type, length, capacity)
-	// this is use for performance
+	// this is used for performance
 	scores := make([]int, 0, 5)
 
 	fmt.Println(scores, len(scores), cap(scores))
